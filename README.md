@@ -207,15 +207,23 @@ Receive Service
 
 ### POSBAKUM Service
 
-![POSBAKUM](docs/screenshots/posbakum-service.png)
+![POSBAKUM](docs/screenshots/posbakum.png)
+
+### Prodeo Service
+
+![Prodeo](docs/screenshots/prodeo.png)
+
+### Zitting Plaats Service
+
+![Zitting Plaats](docs/screenshots/zitting-plaats.png)
+
+### e-PTSP Portal
+
+![e-PTSP](docs/screenshots/e-ptsp.png)
 
 ### Service Contact Directory
 
 ![Service Contact](docs/screenshots/service-contact.png)
-
-### E-PTSP Portal
-
-![E-PTSP](docs/screenshots/e-ptsp-dashboard.png)
 
 ### Service Procedures
 
