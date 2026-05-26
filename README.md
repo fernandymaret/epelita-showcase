@@ -225,13 +225,17 @@ Receive Service
 
 ![e-PTSP Service Officer](docs/screenshots/e-ptsp-officers.png)
 
-### Service Contact Directory
-
-![Service Contact](docs/screenshots/service-contact.png)
-
 ### Service Procedures
 
-![Procedures](docs/screenshots/procedure-page.png)
+![Procedures](docs/screenshots/procedure.png)
+
+### Service Informations
+
+![Informations](docs/screenshots/information.png)
+
+### Service Contact Directory
+
+![Service Contact](docs/screenshots/contact.png)
 
 ---
 
