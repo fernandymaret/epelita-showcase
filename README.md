@@ -4,68 +4,68 @@
 [![Platform](https://img.shields.io/badge/Platform-Web-blue)]()
 [![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)]()
 
-> Portfolio showcase of a digital legal service platform developed to improve public access to court services through an integrated online system.
+> Portfolio showcase of a web-based legal service platform designed to improve public access to court information and services through digital channels.
 
 ---
 
-## Background
+## Overview
 
-Public legal services often require citizens to visit court offices physically to obtain information, legal consultation, submit requests, or access administrative services.
+e-PELITA is a public-facing legal service platform developed to support digital transformation initiatives within the court environment.
 
-e-PELITA was developed as a digital transformation initiative that centralizes multiple public-facing court services into a single web platform, enabling easier access, faster response times, and improved service transparency.
+The platform centralizes multiple legal and administrative services into a single portal, enabling citizens to access service information, procedures, registration forms, contact directories, and court-related assistance online.
 
 ---
 
 ## Objectives
 
-- Improve accessibility of legal services
-- Reduce physical visits to court offices
-- Accelerate service delivery
-- Increase transparency and accountability
-- Support court digital transformation initiatives
+- Improve accessibility of court services
+- Provide centralized public service information
+- Reduce barriers to legal assistance
+- Improve service transparency
+- Support digital transformation initiatives
 
 ---
 
 ## Core Services
 
-### POSBAKUM Online
+### POSBAKUM
 
-Legal aid services for underprivileged citizens.
+Legal aid information services for citizens.
 
 Features:
 
-- Online registration
-- Legal consultation
-- Service procedures
-- Call center support
-- Individual applications
-- Organization applications
+- Service information
+- Registration access
+- Legal aid procedures
+- Officer contact directory
+- Individual services
+- Organization services
 
 ---
 
 ### Zitting Plaats
 
-Circuit court service module.
+Circuit court service information portal.
 
 Features:
 
-- Service registration
-- Consultation support
-- Procedure guidance
-- Information services
+- Registration access
+- Service procedures
+- Contact information
+- Public guidance
 
 ---
 
 ### Prodeo Services
 
-Fee-waived court service module.
+Fee-waived court service information portal.
 
 Features:
 
-- Online application
-- Consultation services
-- Eligibility information
 - Application guidance
+- Service requirements
+- Registration access
+- Contact directory
 
 ---
 
@@ -73,7 +73,7 @@ Features:
 
 Electronic One-Stop Integrated Services.
 
-Available services:
+Service units include:
 
 - Criminal Division
 - Civil Division
@@ -91,25 +91,32 @@ Available services:
 Citizens
     │
     ▼
-┌─────────────────────┐
-│      e-PELITA       │
-│   Web Application   │
-└──────────┬──────────┘
-           │
- ┌─────────┼─────────┬─────────┐
- ▼         ▼         ▼         ▼
+┌──────────────────────────┐
+│         e-PELITA         │
+│     Public Web Portal    │
+└────────────┬─────────────┘
+             │
+ ┌───────────┼───────────┐
+ │           │           │
+ ▼           ▼           ▼
 
-POSBAKUM  ZITTING   PRODEO   E-PTSP
+POSBAKUM  ZITTING    PRODEO
+           PLAATS
 
-                     │
-                     ▼
+             │
+             ▼
 
-         Court Service Units
+          E-PTSP
 
-                     │
-                     ▼
+             │
+             ▼
 
-               Database
+      Court Service Units
+
+             │
+             ▼
+
+         MySQL Database
 ```
 
 ---
@@ -123,7 +130,7 @@ Citizen
 Access e-PELITA
    │
    ▼
-Select Service
+Choose Service
    │
    ├── POSBAKUM
    ├── Zitting Plaats
@@ -131,19 +138,19 @@ Select Service
    └── E-PTSP
            │
            ▼
-Submit Request
+View Information
            │
            ▼
-Verification
+Review Procedures
            │
            ▼
-Officer Handling
+Access Registration
            │
            ▼
-Status Update
+Contact Officer
            │
            ▼
-Service Completion
+Receive Service
 ```
 
 ---
@@ -152,17 +159,43 @@ Service Completion
 
 ### For Citizens
 
-- Easier access to legal services
-- Reduced travel and waiting time
-- Online consultation availability
-- Better service transparency
+- Easy access to legal service information
+- Centralized public service portal
+- Faster access to service procedures
+- Direct communication channels with service officers
 
 ### For Court Administration
 
-- Centralized service management
-- Improved monitoring capabilities
-- Reduced manual workload
-- Enhanced service documentation
+- Improved public information delivery
+- Better service accessibility
+- Reduced repetitive inquiries
+- Support for digital public services
+
+---
+
+## Technology Stack
+
+### Backend
+
+- Node.js
+- Express.js
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+
+### Database
+
+- MySQL
+
+### Infrastructure
+
+- Linux Server
+- HTTPS
+- Session Management
 
 ---
 
@@ -172,21 +205,21 @@ Service Completion
 
 ![Landing Page](docs/screenshots/landing-page.png)
 
-### POSBAKUM Online
+### POSBAKUM Service
 
-![POSBAKUM](docs/screenshots/posbakum.png)
+![POSBAKUM](docs/screenshots/posbakum-service.png)
 
-### Online Consultation
+### Service Contact Directory
 
-![Consultation](docs/screenshots/consultation.png)
+![Service Contact](docs/screenshots/service-contact.png)
 
-### E-PTSP Services
+### E-PTSP Portal
 
-![E-PTSP](docs/screenshots/e-ptsp.png)
+![E-PTSP](docs/screenshots/e-ptsp-dashboard.png)
 
-### Call Center
+### Service Procedures
 
-![Call Center](docs/screenshots/call-center.png)
+![Procedures](docs/screenshots/procedure-page.png)
 
 ---
 
