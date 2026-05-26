@@ -87,71 +87,13 @@ Service units include:
 
 ## System Architecture
 
-```text
-Citizens
-    │
-    ▼
-┌──────────────────────────┐
-│         e-PELITA         │
-│     Public Web Portal    │
-└────────────┬─────────────┘
-             │
- ┌───────────┼───────────┐
- │           │           │
- ▼           ▼           ▼
-
-POSBAKUM  ZITTING    PRODEO
-           PLAATS
-
-             │
-             ▼
-
-          E-PTSP
-
-             │
-             ▼
-
-      Court Service Units
-
-             │
-             ▼
-
-         MySQL Database
-```
+![Architecture](docs/architecture.png)
 
 ---
 
 ## Service Workflow
 
-```text
-Citizen
-   │
-   ▼
-Access e-PELITA
-   │
-   ▼
-Choose Service
-   │
-   ├── POSBAKUM
-   ├── Zitting Plaats
-   ├── Prodeo
-   └── E-PTSP
-           │
-           ▼
-View Information
-           │
-           ▼
-Review Procedures
-           │
-           ▼
-Access Registration
-           │
-           ▼
-Contact Officer
-           │
-           ▼
-Receive Service
-```
+![Workflow](docs/workflow.png)
 
 ---
 
