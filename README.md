@@ -217,9 +217,13 @@ Receive Service
 
 ![Zitting Plaats](docs/screenshots/zitting-plaats.png)
 
-### e-PTSP Portal
+### e-PTSP Overview
 
-![e-PTSP](docs/screenshots/e-ptsp.png)
+![e-PTSP Overview](docs/screenshots/e-ptsp-overview.png)
+
+### e-PTSP Service Officers
+
+![e-PTSP Service Officer](docs/screenshots/e-ptsp-officers.png)
 
 ### Service Contact Directory
 
