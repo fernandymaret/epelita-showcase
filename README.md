@@ -4,76 +4,85 @@
 [![Platform](https://img.shields.io/badge/Platform-Web-blue)]()
 [![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)]()
 
-> Portfolio showcase of a web-based legal service platform designed to improve public access to court information and services through digital channels.
+> Portfolio showcase of a web-based public legal service platform developed to improve accessibility, transparency, and efficiency of court services through digital transformation initiatives.
 
 ---
 
 ## Overview
 
-e-PELITA is a public-facing legal service platform developed to support digital transformation initiatives within the court environment.
+e-PELITA is an integrated public legal service management platform designed to centralize court-related public services into a unified web-based system.
 
-The platform centralizes multiple legal and administrative services into a single portal, enabling citizens to access service information, procedures, registration forms, contact directories, and court-related assistance online.
+The platform enables citizens to access legal aid services, submit service requests, upload supporting documents, track application progress, review service procedures, and access public court information online.
+
+In addition to public-facing services, e-PELITA also provides administrative management features for service operators and system administrators to manage submissions, update service progress, control website content, and maintain public service information.
 
 ---
 
 ## Objectives
 
 - Improve accessibility of court services
-- Provide centralized public service information
-- Reduce barriers to legal assistance
-- Improve service transparency
-- Support digital transformation initiatives
+- Digitize public legal service workflows
+- Reduce manual administrative processes
+- Improve transparency of public service handling
+- Provide centralized public legal service information
+- Support digital transformation initiatives within court services
 
 ---
 
-## Core Services
+# Core Services
 
-### POSBAKUM
+## POSBAKUM
 
-Legal aid information services for citizens.
+Legal aid service module for underprivileged citizens.
 
-Features:
+### Features
 
-- Service information
-- Registration access
-- Legal aid procedures
+- Online registration
+- Submission tracking
+- Supporting document upload
+- Service procedures
+- Legal service information
 - Officer contact directory
 - Individual services
 - Organization services
 
 ---
 
-### Zitting Plaats
+## Prodeo Services
 
-Circuit court service information portal.
+Fee-waived court service module.
 
-Features:
+### Features
 
-- Registration access
-- Service procedures
-- Contact information
-- Public guidance
-
----
-
-### Prodeo Services
-
-Fee-waived court service information portal.
-
-Features:
-
-- Application guidance
+- Online application
+- Progress monitoring
+- Supporting document upload
 - Service requirements
-- Registration access
-- Contact directory
+- Public information access
+- Officer contact directory
 
 ---
 
-### E-PTSP
+## Zitting Plaats
 
-Electronic One-Stop Integrated Services.
+Circuit court service module.
 
-Service units include:
+### Features
+
+- Service registration
+- Submission management
+- Progress tracking
+- Supporting document upload
+- Service procedures
+- Public information access
+
+---
+
+## e-PTSP
+
+Electronic One-Stop Integrated Public Services.
+
+### Service Units
 
 - Criminal Division
 - Civil Division
@@ -83,57 +92,136 @@ Service units include:
 - Complaints
 - Public Information
 
+### Features
+
+- Service information portal
+- Officer directory
+- Service schedules
+- Working hours
+- Public information access
+- Video information content
+
 ---
 
-## System Architecture
+# Submission Workflow
+
+Citizens can monitor the status of their service requests through several workflow stages:
+
+```text
+Submission Created → Accepted → Processing → Rejected / Completed
+```
+
+---
+
+# Administrative System
+
+e-PELITA includes an administrative management system with role-based access control.
+
+---
+
+## Super Admin Features
+
+### User Management
+
+- Create users
+- Delete users
+- Block users
+- Reset passwords
+
+### Content Management
+
+- Landing page slideshow management
+- Contact information management
+- Footer link management
+- Service detail management
+- Procedure management
+- Information management
+- Consultant information management
+- Gallery management
+- e-PTSP profile management
+- Video management
+- Officer profile management
+
+### Service Management
+
+- View uploaded submission data
+- Update submission progress
+- Monitor service requests
+
+---
+
+## Service Admin Features
+
+Service administrators are limited to their assigned service modules.
+
+### Features
+
+- View submission data
+- Update submission progress
+- Review uploaded documents
+
+---
+
+# System Architecture
 
 ![Architecture](docs/architecture.png)
 
 ---
 
-## Service Workflow
+# Service Workflow
 
 ![Workflow](docs/workflow.png)
 
 ---
 
-## Key Benefits
+# Key Features
 
-### For Citizens
+## Public Features
 
-- Easy access to legal service information
-- Centralized public service portal
-- Faster access to service procedures
-- Direct communication channels with service officers
-
-### For Court Administration
-
-- Improved public information delivery
-- Better service accessibility
-- Reduced repetitive inquiries
-- Support for digital public services
+- Integrated public legal service portal
+- Online service registration
+- Submission tracking
+- Supporting document upload
+- Public information access
+- Service procedure guidance
+- Officer contact directory
+- Responsive web interface
 
 ---
 
-## Technology Stack
+## Administrative Features
 
-### Backend
+- Role-based access control
+- Multi-level administration
+- Workflow management
+- Submission management
+- Content management
+- Gallery management
+- Video management
+- Landing page management
+- User management
+
+---
+
+# Technology Stack
+
+## Backend
 
 - Node.js
 - Express.js
 
-### Frontend
+## Frontend
 
 - HTML5
 - CSS3
 - JavaScript
 - Bootstrap
 
-### Database
+## Database
 
 - MySQL
 
-### Infrastructure
+## Infrastructure
 
 - Linux Server
 - HTTPS
@@ -141,43 +229,53 @@ Service units include:
 
 ---
 
-## Screenshots
+# Screenshots
 
-### Landing Page
+## Landing Page
 
 ![Landing Page](docs/screenshots/landing-page.png)
 
-### POSBAKUM Service
+---
 
-![POSBAKUM](docs/screenshots/posbakum.png)
+## POSBAKUM Service
 
-### Prodeo Service
+![POSBAKUM](docs/screenshots/posbakum-service.png)
 
-![Prodeo](docs/screenshots/prodeo.png)
+---
 
-### Zitting Plaats Service
+## Submission Tracking
 
-![Zitting Plaats](docs/screenshots/zitting-plaats.png)
+![Submission Tracking](docs/screenshots/submission-tracking.png)
 
-### e-PTSP Overview
+---
 
-![e-PTSP Overview](docs/screenshots/e-ptsp-overview.png)
+## e-PTSP Overview
 
-### e-PTSP Service Officers
+![e-PTSP](docs/screenshots/e-ptsp-overview.png)
 
-![e-PTSP Service Officer](docs/screenshots/e-ptsp-officers.png)
+---
 
-### Service Procedures
+## PTSP Service Officers
 
-![Procedures](docs/screenshots/procedure.png)
+![PTSP Officers](docs/screenshots/e-ptsp-officers.png)
 
-### Service Informations
+---
 
-![Informations](docs/screenshots/information.png)
+## Administrative Dashboard
 
-### Service Contact Directory
+![Admin Dashboard](docs/screenshots/admin-dashboard.png)
 
-![Service Contact](docs/screenshots/contact.png)
+---
+
+# Project Highlights
+
+- Government digital service platform
+- Integrated legal service management
+- Public service workflow system
+- Role-based administrative system
+- Content management capabilities
+- Public submission tracking
+- Court digital transformation initiative
 
 ---
 
