@@ -239,7 +239,19 @@ Service administrators are limited to their assigned service modules.
 
 ## POSBAKUM Service
 
-![POSBAKUM](docs/screenshots/posbakum-service.png)
+![POSBAKUM](docs/screenshots/posbakum.png)
+
+---
+
+## Prodeo Service
+
+![Prodeo](docs/screenshots/prodeo.png)
+
+---
+
+## Zitting Plaats Service
+
+![Zitting Plaats](docs/screenshots/zitting-plaats.png)
 
 ---
 
