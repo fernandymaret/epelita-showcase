@@ -107,9 +107,7 @@ Electronic One-Stop Integrated Public Services.
 
 Citizens can monitor the status of their service requests through several workflow stages:
 
-```text
-Submission Created → Accepted → Processing → Rejected / Completed
-```
+![Workflow Status](docs/workflow-status.png)
 
 ---
 
