@@ -255,12 +255,6 @@ Service administrators are limited to their assigned service modules.
 
 ---
 
-## Submission Tracking
-
-![Submission Tracking](docs/screenshots/submission-tracking.png)
-
----
-
 ## e-PTSP Overview
 
 ![e-PTSP](docs/screenshots/e-ptsp-overview.png)
