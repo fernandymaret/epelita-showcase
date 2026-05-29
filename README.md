@@ -267,9 +267,15 @@ Service administrators are limited to their assigned service modules.
 
 ---
 
-## Administrative Dashboard
+## Admin Submission Management
 
-![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+![Admin Submission](docs/screenshots/admin-submission.png)
+
+---
+
+## Admin Content Management
+
+![Admin Content](docs/screenshots/admin-content.png)
 
 ---
 
